@@ -2,7 +2,7 @@ class KondateController < ApplicationController
   def index
   end
 
-  def roulette_gen
+  def roulette
     @roulette_items = Kondate.search(params[:word])
   end
   

@@ -1,1 +1,4 @@
-OHHHHOHOHOHOHOH
+<%= javascript_pack_tag 'roulette' %>
+<% @roulette_items.each do |item| %>
+    <p><%= item.name %></p>
+<% end %>
