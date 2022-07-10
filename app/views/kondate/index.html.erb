@@ -1,5 +1,5 @@
-<h1>こんだてルーレット</h1>
+<h1>Daily Meal</h1>
 <%= form_with url: "kondate/roulette", method: :post, local: true do |f| %>
     <%= f.text_field :word %>
-    <%= f.submit 'ルーレットを生成' %>
+    <%= f.submit '生成' %>
 <% end %>
