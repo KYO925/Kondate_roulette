@@ -126,7 +126,7 @@
 				p.$texts = $roulette.find('p').remove();
 				p.imageCount = p.$texts.length;
 				p.$texts.eq(0).bind('load',function(){
-					p.imageHeight = $(this).height();
+					p.imageHeight = 100;
 					$roulette.css({ 'height' : (p.imageHeight + 'px') });
 					p.totalHeight = p.imageCount * p.imageHeight;
 					p.runUpDistance = 2 * p.imageHeight;
