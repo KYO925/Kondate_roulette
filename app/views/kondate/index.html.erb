@@ -1,4 +1,8 @@
-<h1>Daily Meal</h1>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+</style>
+
+<h1 class = "fuwafuwa" >Daily Meal</h1>
 <%= form_with url: "kondate/roulette", method: :post, local: true do |f| %>
     <%= f.text_field :word %>
     <%= f.submit '生成' %>
